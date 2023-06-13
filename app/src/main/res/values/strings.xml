@@ -1,3 +1,73 @@
 <resources>
-    <string name="app_name">BipChat</string>
+    <string name="health_twin">HEALTHTWIN</string>
+    <string name="health_twin_2">HealthTwin</string>
+    <string name="home">Home</string>
+    <string name="activity">Activity</string>
+    <string name="health">Health</string>
+    <string name="wallet">Wallet</string>
+    <string name="setting">Setting</string>
+    <string name="text_checkbox_remember">Remember</string>
+    <string name="text_edt_password">Password</string>
+    <string name="text_view_forgot_password">Forgot Passwork?</string>
+    <string name="text_view_sign_in">Sign in</string>
+    <string name="text_edt_email">Email</string>
+    <string name="text_view_welcome_to">Welcome To</string>
+
+    <!--    Welcome-->
+    <string name="welcome_text_tv_get_started">Get started</string>
+
+    <!--    Login -->
+    <string name="login_text_cb_remember">Remember</string>
+    <string name="login_text_edt_password">Password</string>
+    <string name="login_text_tv_forgot_password">Forgot Password?</string>
+    <string name="login_text_tv_sign_in">Sign in</string>
+    <string name="login_text_edt_email">Email</string>
+    <string name="login_text_tv_welcome_to">Welcome To</string>
+    <string name="login_text_tv_have_not_account_join_now">Haven’t account? Join now</string>
+    <string name="login_text_tv_have_not_account_join_now_high_light">Join now</string>
+
+    <!--    Register-->
+    <string name="register_text_tv_welcome_to_healthy_lifestyle">Welcome To HealthTwin</string>
+    <string name="register_text_tv_register_description">Get started by creating an account</string>
+    <string name="register_hint_edt_enter_pass">Password *</string>
+    <string name="register_hint_edt_confirm_pass">Confirm password *</string>
+    <string name="register_text_tv_sent">Send</string>
+    <string name="register_text_tv_already_account">Already have account? Login in</string>
+    <string name="register_text_tv_already_account_high_light">Login in</string>
+    <string name="invalid_referral_code">Invalid referral code</string>
+
+    <!--    Forgot Pass-->
+    <string name="forgot_password_text_tv_header">Forgot Password</string>
+    <string name="forgot_password_text_tv_description">Enter your registered email to receive reset password link</string>
+    <string name="forgot_password_text_tv_send_reset_link">Send Reset Link</string>
+
+    <!--    Reset Password-->
+    <string name="reset_password_text_tv_header">Reset Password</string>
+    <string name="reset_password_text_tv_description">Enter your password and confirm password</string>
+    <string name="reset_password_text_tv_reset">Reset</string>
+    <!--    Veriyfy Email-->
+    <string name="verify_email_text_tv_header">Verify email</string>
+    <string name="verify_email_text_tv_description">Your account has not been activated, we have sent a link for activation to %s, please check it</string>
+    <string name="verify_email_text_tv_resend_email">Resend email</string>
+    <string name="verify_email_text_tv_try_with_another_email">Try with another email</string>
+    <string name="verify_email_text_tv_verified_reload_now">Verified. Reload now</string>
+
+    <!--    Alert Dialog-->
+    <string name="alert_dialog_message_error_empty">Please fill in all field!</string>
+    <string name="alert_dialog_message_error_regex_email">Please fill in correct email format (include an @ in the email address).</string>
+    <string name="alert_dialog_message_error_regex_pass">Your password must be 6 – 32 characters including both alphabet and number.</string>
+    <string name="alert_dialog_message_error_confirm_password">The confirm password does not match</string>
+    <string name="alert_dialog_message_reset_pass_successfully">Your password has been changed successfully. Use your new password to log in.</string>
+    <string name="alert_dialog_message_sent_email_reset_password">Reset password link has been sent to your email. Please check it.</string>
+    <string name="dialog_alert_text_ok">OK</string>
+    <string name="alert_dialog_message_error_spam_email">Spam mail! Please use a valid email and try again.</string>
+    <string name="error_message_email_not_found">Email is not found.\nPlease sign up if you haven not create account yet.</string>
+    <string name="error_message_email_already">Wrong password.\nPlease try again or click Forgot password to reset it.</string>
+    <string name="error_message_register_email_already">Email is already in use.\nPlease sign in instead.</string>
+    <string name="error_message_email_not_verify">User does not verify.\nPlease check your mail again</string>
+    <string name="error_internet_problem">No internet connection.\nPlease check the connection status and try again.</string>
+    <string name="error_time_out">Request timed out.\nPlease check the connection status and try again.</string>
+    <string name="error_unknown_api">Error. Please try again later.</string>
+
+
 </resources>
