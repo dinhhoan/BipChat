@@ -68,6 +68,13 @@
     <string name="error_internet_problem">No internet connection.\nPlease check the connection status and try again.</string>
     <string name="error_time_out">Request timed out.\nPlease check the connection status and try again.</string>
     <string name="error_unknown_api">Error. Please try again later.</string>
+    <string name="first_fragment_label">first_fragment</string>
+    <string name="second_fragment_label">secon_fragment</string>
+    <string name="app_namesss">PipChat</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="pipchat">PipChat</string>
 
 
 </resources>

@@ -8,31 +8,31 @@ plugins {
 
 android {
 
-    def APP_NAME = "BASEAPP"
+    def APP_NAME = "PipChat"
 
-    namespace 'com.example.baseappkotlin'
-    compileSdk 32
+    namespace 'bitcat.lab.pipchat'
+    compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.baseappkotlin"
+        applicationId "bitcat.lab.pipchat"
         minSdk 26
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
 
-    flavorDimensions "healthtwin"
+    flavorDimensions "pipchat"
 
     productFlavors {
         dev {
-            dimension "healthtwin"
+            dimension "pipchat"
         }
 
-        healthtwin {
-            dimension "healthtwin"
-            applicationId "com.example.baseappkotlin"
+        pipchat {
+            dimension "pipchat"
+            applicationId "bitcat.lab.pipchat"
         }
     }
 
@@ -44,7 +44,7 @@ android {
                 variant.setIgnore(true)
             }
         }
-        if (flavor.contains("healthtwin")) {
+        if (flavor.contains("pipchat")) {
             if (buildType == "debug"
                     || buildType == "debug2"
                     || buildType == "debug3") {
@@ -78,14 +78,14 @@ android {
                     variant.buildConfigField("String", "BASE_API_URL", '"https://api-dev.healthtwin.org/"')
                     variant.buildConfigField("String", "DEEPLINK", '"https://healthtwin.org"')
                     variant.buildConfigField("String", "PREFIX_DYNAMIC_LINK", '"https://healthyappdev.page.link"')
-                    variant.buildConfigField("String", "BUNDLE_ID", '"com.apps.healthy.dev"')
+                    variant.buildConfigField("String", "BUNDLE_ID", '"bitcat.lab.pipchat.dev"')
                     variant.buildConfigField("String", "APPSTOREID", '"1634757692"')
                     variant.buildConfigField("String", "MINIMUMVERSION", '"1.0.1"')
                     break
-                case "healthtwinRelease":
+                case "bipchatRelease":
                     variant.resValue("string", "file_provider", "${variant.applicationId}.fileprovider")
                     variant.resValue("string", "app_name", "${APP_NAME}")
-                    variant.buildConfigField("String", "BUNDLE_ID", '"com.apps.healthtwin"')
+                    variant.buildConfigField("String", "BUNDLE_ID", '"bitcat.lab.pipchat"')
                     variant.buildConfigField "String", "APP_NAME", "\"${APP_NAME}\""
                     break
             }
@@ -97,6 +97,9 @@ android {
     }
     kotlinOptions {
         jvmTarget = '1.8'
+    }
+    buildFeatures {
+        viewBinding true
     }
 }
 
