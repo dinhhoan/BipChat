@@ -6,10 +6,6 @@ import android.content.Intent
 import android.os.Bundle
 import bitcat.lab.pipchat.R
 
-/**
- * @author mvn-toan.nguyen2 on 6/23/22
- **/
-
 inline fun <reified T : Any> Activity.startActivity(
     options: Bundle? = null,
     noinline init: Intent.() -> Unit = {}

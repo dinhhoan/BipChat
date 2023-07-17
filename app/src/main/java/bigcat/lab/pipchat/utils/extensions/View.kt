@@ -4,13 +4,8 @@ import android.os.SystemClock
 import android.view.View
 import bizverse.lab.healthylifestyle.utils.Constants
 
-/*
-* Created by ducnguyen on 04/06/2022.
-*/
-
-
 fun View.disableMultipleClick(
-    timeDelay: Long = Constants.TIME_DELAY_DEFAULT,
+    timeDelay: Int = Constants.TIME_DELAY_DEFAULT,
     eventClick: (view: View) -> Unit
 ) {
     var timeNow = 0L

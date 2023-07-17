@@ -9,9 +9,6 @@ import android.provider.Settings
 import android.view.View
 import android.view.inputmethod.InputMethodManager
 
-/*
-* Created by ducnguyen on 07/06/2022.
-*/
 
 fun Context.openSettingSystem() {
     Intent(

@@ -7,10 +7,6 @@ import com.bumptech.glide.load.resource.bitmap.CenterCrop
 import com.bumptech.glide.load.resource.bitmap.RoundedCorners
 import com.bumptech.glide.request.RequestOptions
 
-/**
- * @author mvn-toan.nguyen2 on 6/22/22
- **/
-
 //
 //fun ImageView.loadCircleUrl(
 //    url: String?,

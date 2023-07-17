@@ -12,10 +12,6 @@ import bizverse.lab.healthylifestyle.utils.extensions.onError
 import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch
 
-/**
- * @author mvn-toan.nguyen2 on 8/23/22
- **/
-
 private const val ERROR_FLOW_KEY = "androidx.lifecycle.ErrorFlow"
 private const val LOADING_FLOW_KEY = "androidx.lifecycle.LoadingFlow"
 

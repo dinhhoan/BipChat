@@ -14,7 +14,7 @@ import javax.inject.Singleton
 
 
 /*
-* Created by ducnguyen on 31/05/2022.
+* Created by hoantd on 31/05/2022.
 */
 @Singleton
 class SharedPreferenceRepository @Inject constructor(application: Application) {
@@ -55,7 +55,7 @@ class SharedPreferenceRepository @Inject constructor(application: Application) {
     }
 
     companion object {
-        private const val FILE_NAME = "HealthyLifeStyle"
+        private const val FILE_NAME = "app"
         private const val KEY_TOKEN_USER = "key_token_user"
     }
 }

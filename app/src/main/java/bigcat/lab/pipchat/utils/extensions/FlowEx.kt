@@ -3,9 +3,6 @@ package bizverse.lab.healthylifestyle.utils.extensions
 import bigcat.lab.pipchat.data.error.ErrorModel
 import kotlinx.coroutines.flow.*
 
-/**
- * @author mvn-toan.nguyen2 on 8/23/22
- **/
 sealed class FlowResult<out T> {
     data class Success<T>(val value: T) : FlowResult<T>()
     data class Error(val error: ErrorModel) : FlowResult<Nothing>()

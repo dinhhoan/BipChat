@@ -9,9 +9,6 @@ import androidx.fragment.app.DialogFragment
 import androidx.fragment.app.FragmentManager
 import bitcat.lab.pipchat.R
 
-/**
- * @author mvn-toan.nguyen2 on 8/23/22
- **/
 class CustomProgressDialog : DialogFragment() {
 
     companion object {

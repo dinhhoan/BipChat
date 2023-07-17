@@ -7,9 +7,6 @@ import java.text.SimpleDateFormat
 import java.util.*
 import java.util.concurrent.TimeUnit
 
-/*
-* Created by ducnguyen on 07/06/2022.
-*/
 fun String.uuid(): UUID = UUID.fromString(this)
 
 fun String.toCalendar(pattern: String = YYYY_MM_DD_HH_MM_SS): Calendar? {

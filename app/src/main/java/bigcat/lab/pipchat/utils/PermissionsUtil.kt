@@ -5,9 +5,6 @@ import android.content.Context
 import android.content.pm.PackageManager
 import androidx.appcompat.app.AppCompatActivity
 
-/**
- * @author mvn-toan.nguyen2 on 7/4/22
- **/
 object PermissionsUtil {
 
     internal const val REQUEST_WRITE_EXTERNAL_STORAGE_PERMISSION_CODE = 1235

@@ -16,10 +16,6 @@ import androidx.core.content.ContextCompat
 import bitcat.lab.pipchat.R
 import java.util.regex.Pattern
 
-/**
- * @author mvn-toan.nguyen2 on 6/7/22
- **/
-
 fun TextView.setTextWithHighLight(
     originString: String,
     highLightColor: Int,

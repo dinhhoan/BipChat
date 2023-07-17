@@ -10,9 +10,6 @@ import java.net.ConnectException
 import java.net.SocketTimeoutException
 import java.net.UnknownHostException
 
-/**
- * @author mvn-toan.nguyen2 on 8/23/22
- **/
 inline fun <T, R> Response<T>.mapSuccess(
     crossinline block: (T) -> R
 ): R {

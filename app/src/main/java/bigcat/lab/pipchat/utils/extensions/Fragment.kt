@@ -17,9 +17,6 @@ import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.zip
 
-/**
- * @author mvn-toan.nguyen2 on 7/4/22
- **/
 
 internal fun Fragment.checkPermissionRequest(
     permissionKey: Int,
